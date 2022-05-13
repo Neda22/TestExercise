@@ -113,10 +113,10 @@ data_trend = df_topic_keywords['Trend 1']
 #JSON format
 {
  "topics":[
-     print(df_document_topic1.to_json(orient=columns))
+     print(df_document_topic1.to_json(orient="columns"))
      
      ],
  "trends":
-     print(data_trend.to_json(orient = columns))
+     print(data_trend.to_json(orient = "columns"))
  } 
 
